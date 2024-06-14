@@ -1,0 +1,1614 @@
+INFO - 2023-11-06 03:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 03:34:29 --> Undefined index: kode_fakultas
+in APPPATH\Views\simpanan\v_index.php on line 46.
+ 1 APPPATH\Views\simpanan\v_index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kode_fakultas', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(36): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 03:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 03:39:06 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_index.php on line 45.
+ 1 APPPATH\Views\simpanan\v_index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(36): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 03:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 03:45:10 --> mysqli_sql_exception: Not unique table/alias: 'tbl_simpanan' in C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\koperasi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\koperasi\app\Models\ModelSimpanan.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\koperasi\app\Controllers\Simpanan.php(32): App\Models\ModelSimpanan->all_data()
+#6 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+#7 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+#8 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 03:45:10 --> Not unique table/alias: 'tbl_simpanan'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_simpanan`
+JOIN `tbl_simpanan` ON `tbl_simpanan`.`id_anggota` = `tbl_anggota`.`id_anggota`
+JOIN `tbl_jenis_simpanan` ON `tbl_jenis_simpanan`.`id_jenis_simpanan` = `tbl_simpanan`.`id_jenis_simpanan`
+JOIN `tbl_fakultas` ON `tbl_fakultas`.`id_fakultas` = `tbl_anggota`.`id_fakultas`
+ORDER BY `tbl_simpanan`.`id_simpanan`', [], false)
+ 2 APPPATH\Models\ModelSimpanan.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Simpanan.php(32): App\Models\ModelSimpanan->all_data()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 03:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:02:18 --> Undefined index: kode_fakultas
+in APPPATH\Views\simpanan\v_index.php on line 47.
+ 1 APPPATH\Views\simpanan\v_index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: kode_fakultas', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(36): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:02:43 --> Undefined index: jumlahS_simpanan
+in APPPATH\Views\simpanan\v_index.php on line 50.
+ 1 APPPATH\Views\simpanan\v_index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlahS_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(36): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:03:34 --> Undefined variable: simpanan
+in APPPATH\Views\simpanan\v_index.php on line 43.
+ 1 APPPATH\Views\simpanan\v_index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(36): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:03:41 --> Undefined index: jumlah_simpanan
+in APPPATH\Views\simpanan\v_index.php on line 50.
+ 1 APPPATH\Views\simpanan\v_index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(36): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:15:58 --> Undefined variable: anggota
+in APPPATH\Views\simpanan\v_detail.php on line 24.
+ 1 APPPATH\Views\simpanan\v_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:17:03 --> Undefined variable: anggota
+in APPPATH\Views\simpanan\v_detail.php on line 24.
+ 1 APPPATH\Views\simpanan\v_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:17:11 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 24.
+ 1 APPPATH\Views\simpanan\v_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:18:42 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 24.
+ 1 APPPATH\Views\simpanan\v_detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:19:08 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 15.
+ 1 APPPATH\Views\simpanan\v_detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:19:43 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 15.
+ 1 APPPATH\Views\simpanan\v_detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:20:06 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 15.
+ 1 APPPATH\Views\simpanan\v_detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:22:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+in APPPATH\Models\ModelAnggota.php on line 55.
+ 1 APPPATH\Controllers\Simpanan.php(49): App\Models\ModelAnggota->getAnggotaById('1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:29:30 --> Cannot call constructor
+in APPPATH\Controllers\Simpanan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Simpanan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:29:37 --> Undefined property: App\Controllers\Simpanan::$load
+in APPPATH\Controllers\Simpanan.php on line 16.
+ 1 APPPATH\Controllers\Simpanan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Simpanan::$load', 'C:\\xampp\\htdocs\\koperasi\\app\\Controllers\\Simpanan.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Simpanan->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:29:58 --> Undefined property: App\Controllers\Simpanan::$ModelSimpaanan
+in APPPATH\Controllers\Simpanan.php on line 48.
+ 1 APPPATH\Controllers\Simpanan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Simpanan::$ModelSimpaanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Controllers\\Simpanan.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:30:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\ModelSimpanan.php on line 62.
+ 1 APPPATH\Controllers\Simpanan.php(48): App\Models\ModelSimpanan->getAnggotaById('1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:31:43 --> Undefined variable: data_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 15.
+ 1 APPPATH\Views\simpanan\v_detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(51): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:31:56 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 15.
+ 1 APPPATH\Views\simpanan\v_detail.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(51): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:38:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\ModelSimpanan.php on line 73.
+ 1 APPPATH\Controllers\Simpanan.php(49): App\Models\ModelSimpanan->getSimpananByIdAnggota('1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:39:31 --> Illegal string offset 'id_jenis_simpanan'
+in APPPATH\Views\simpanan\v_detail.php on line 41.
+ 1 APPPATH\Views\simpanan\v_detail.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_jenis_simpanan\'', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:40:17 --> Undefined index: jumlah_jenis_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 43.
+ 1 APPPATH\Views\simpanan\v_detail.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_jenis_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 04:41:22 --> mysqli_sql_exception: Column 'id_anggota' in where clause is ambiguous in C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\koperasi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\koperasi\app\Models\ModelSimpanan.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\koperasi\app\Controllers\Simpanan.php(49): App\Models\ModelSimpanan->getSimpananByIdAnggota('1')
+#6 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+#7 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+#8 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 04:41:22 --> Column 'id_anggota' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_simpanan`
+JOIN `tbl_anggota` ON `tbl_simpanan`.`id_anggota` = `tbl_anggota`.`id_anggota`
+JOIN `tbl_jenis_simpanan` ON `tbl_simpanan`.`id_jenis_simpanan` = `tbl_jenis_simpanan`.`id_jenis_simpanan`
+WHERE `id_anggota` = :id_anggota:', [...], false)
+ 2 APPPATH\Models\ModelSimpanan.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Simpanan.php(49): App\Models\ModelSimpanan->getSimpananByIdAnggota('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 04:53:11 --> mysqli_sql_exception: Table 'koperasi.jenis_simpanan' doesn't exist in C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT SUM(`jum...', 0)
+#1 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jum...')
+#2 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jum...')
+#3 C:\xampp\htdocs\koperasi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 C:\xampp\htdocs\koperasi\app\Models\ModelSimpanan.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\koperasi\app\Controllers\Simpanan.php(42): App\Models\ModelSimpanan->updateJumlahJenisSimpanan('1')
+#6 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+#7 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+#8 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 04:53:11 --> Table 'koperasi.jenis_simpanan' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah_jenis_simpanan`) AS `jumlah_jenis_simpanan`
+FROM `jenis_simpanan`', [], false)
+ 2 APPPATH\Models\ModelSimpanan.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Simpanan.php(42): App\Models\ModelSimpanan->updateJumlahJenisSimpanan('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-06 04:53:22 --> mysqli_sql_exception: Table 'koperasi.jenis_simpanan' doesn't exist in C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\koperasi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT SUM(`jum...', 0)
+#1 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jum...')
+#2 C:\xampp\htdocs\koperasi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jum...')
+#3 C:\xampp\htdocs\koperasi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 C:\xampp\htdocs\koperasi\app\Models\ModelSimpanan.php(83): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\koperasi\app\Controllers\Simpanan.php(42): App\Models\ModelSimpanan->updateJumlahJenisSimpanan('1')
+#6 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+#7 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+#8 C:\xampp\htdocs\koperasi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 04:53:22 --> Table 'koperasi.jenis_simpanan' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah_jenis_simpanan`) AS `jumlah_jenis_simpanan`
+FROM `jenis_simpanan`', [], false)
+ 2 APPPATH\Models\ModelSimpanan.php(83): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Simpanan.php(42): App\Models\ModelSimpanan->updateJumlahJenisSimpanan('1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:53:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Simpanan.php(42): CodeIgniter\Model->__call('updateJumlahJenisSimpanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:53:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Simpanan.php(42): CodeIgniter\Model->__call('updateJumlahJenisSimpanan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:54:12 --> Undefined variable: detail_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 36.
+ 1 APPPATH\Views\simpanan\v_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: detail_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(51): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:56:58 --> Undefined index: jumlah_jenis_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 48.
+ 1 APPPATH\Views\simpanan\v_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_jenis_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 04:56:59 --> Undefined index: jumlah_jenis_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 48.
+ 1 APPPATH\Views\simpanan\v_detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_jenis_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 04:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 04:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 05:05:21 --> Undefined variable: jenis_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 81.
+ 1 APPPATH\Views\simpanan\v_detail.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jenis_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(52): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 05:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 05:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:26:36 --> Undefined variable: value
+in APPPATH\Views\simpanan\v_detail.php on line 21.
+ 1 APPPATH\Views\simpanan\v_detail.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(53): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:28:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Simpanan.php(48): CodeIgniter\Model->__call('getAnggotaById', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:29:38 --> Undefined index: id_jenis_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 21.
+ 1 APPPATH\Views\simpanan\v_detail.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_jenis_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(53): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:34:01 --> Illegal string offset 'id_anggota'
+in APPPATH\Views\simpanan\v_detail.php on line 67.
+ 1 APPPATH\Views\simpanan\v_detail.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'id_anggota\'', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 67, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(53): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 06:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 06:51:18 --> Undefined index: jumlah_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 54.
+ 1 APPPATH\Views\simpanan\v_detail.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(53): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 06:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:02:35 --> number_format() expects parameter 1 to be float, array given
+in APPPATH\Views\simpanan\v_detail.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, array given', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 54, [...])
+ 2 APPPATH\Views\simpanan\v_detail.php(54): number_format([...], 0, ',', '.')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 6 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 7 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+10 APPPATH\Controllers\Simpanan.php(54): view('template/v_template_admin', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:10:17 --> Undefined variable: jenis_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 107.
+ 1 APPPATH\Views\simpanan\v_detail.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jenis_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 107, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(54): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:10:48 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(54): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:11:40 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:11:55 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:12:25 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:03 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:04 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:05 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:05 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:05 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:05 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:17 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:45 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:47 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:14:52 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 130.
+ 1 APPPATH\Views\simpanan\v_detail.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 130, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:16:15 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:19:26 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:20:21 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:20:22 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:20:22 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:20:22 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:20:22 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:20:46 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:21:58 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:21:59 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:21:59 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:21:59 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:22:00 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:22:03 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:24:03 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:24:03 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:24:04 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:24:04 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:24:04 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:24:04 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 79.
+ 1 APPPATH\Views\simpanan\v_detail.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:25:10 --> Undefined index: id_simpanan
+in APPPATH\Views\simpanan\v_detail.php on line 133.
+ 1 APPPATH\Views\simpanan\v_detail.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_simpanan', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:26:06 --> Undefined index: nama_anggota
+in APPPATH\Views\simpanan\v_detail.php on line 144.
+ 1 APPPATH\Views\simpanan\v_detail.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_anggota', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 144, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:28:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\simpanan\v_detail.php on line 36.
+ 1 APPPATH\Views\simpanan\v_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('8')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:29:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\simpanan\v_detail.php on line 36.
+ 1 APPPATH\Views\simpanan\v_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('8')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:31:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\simpanan\v_detail.php on line 36.
+ 1 APPPATH\Views\simpanan\v_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\simpanan\\v_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('simpanan/v_detail', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('simpanan/v_detail')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Simpanan.php(55): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->detail('7')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:31:53 --> Too few arguments to function App\Controllers\Simpanan::delete(), 1 passed in C:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Simpanan.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->delete('6')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 07:34:05 --> Too few arguments to function App\Controllers\Simpanan::delete(), 1 passed in C:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\Simpanan.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Simpanan->delete('6')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Simpanan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 07:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 07:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 08:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 08:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 08:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 08:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 09:15:14 --> Undefined index: bunga
+in APPPATH\Views\pinjaman\v_index.php on line 28.
+ 1 APPPATH\Views\pinjaman\v_index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bunga', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\pinjaman\\v_index.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\pinjaman\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pinjaman/v_index', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('pinjaman/v_index')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pinjaman.php(31): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pinjaman->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 09:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 09:38:16 --> Undefined variable: options
+in APPPATH\Views\pinjaman\v_input.php on line 37.
+ 1 APPPATH\Views\pinjaman\v_input.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: options', 'C:\\xampp\\htdocs\\koperasi\\app\\Views\\pinjaman\\v_input.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\pinjaman\\v_input.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pinjaman/v_input', [], true)
+ 5 APPPATH\Views\template\v_template_admin.php(343): view('pinjaman/v_input')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\koperasi\\app\\Views\\template\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/v_template_admin', [], true)
+ 9 APPPATH\Controllers\Pinjaman.php(49): view('template/v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pinjaman->input()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 09:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 09:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 10:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 12:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 13:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-06 14:02:25 --> Undefined property: App\Controllers\Pinjaman::$ModelDetailPinjaman
+in APPPATH\Controllers\Pinjaman.php on line 124.
+ 1 APPPATH\Controllers\Pinjaman.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Pinjaman::$ModelDetailPinjaman', 'C:\\xampp\\htdocs\\koperasi\\app\\Controllers\\Pinjaman.php', 124, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pinjaman->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pinjaman))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-06 14:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 14:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-06 17:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
